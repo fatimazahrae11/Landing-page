@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap%27');
+
+*
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+
+body
+{ 
+    background-image: url(./imgs/desert.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;  
+}
+
+
+.sec1
+{   
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+header, a, .sec1
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+} 
+
+
+a
+{
+    font-weight: 300;
+    padding: 10px 22px;
+    border-radius: 4px;
+}
+
+a:hover
+{
+    background-color:  #0F7579;
+    opacity: 0.9;
+}
+
+header
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1
+{
+    font-weight: 400;
+}
+
+.slogan
+{
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+#first
+{
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.button
+{
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    border-color: #EFEFC8;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: #EFEFC8;
+}
+
+.sec2
+{
+    position: relative;
+    background-color: white;
+    overflow: hidden;  
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 19%;
+    color: #073335;
+}
+
+.sec3
+{  
+    background-color: white; 
+    color: #073335;
+    margin-top: 8vh;
+    padding-bottom: 4vh;
+}
+
+.sec4
+{
+    background-color: white;
+}
+
+.sec4 h2
+{
+    color: #073335;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1vh;
+}
+
+#TESTIMONIALS
+{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#DESTINATIONS, p
+{
+    margin-left: 5%;
+}
+
+p
+{
+    padding-bottom: 5VH;
+}
+
+.container
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+    grid-auto-flow: column;    
+}
+
+.container img  
+{
+    width: 25vw;
+    height: auto;
+    padding-bottom: 1vw;
+}
+
+h5
+{
+    color: #0F7579;
+}
+
+span
+{
+    font-size: 3vw;
+}
+ 
+.carte
+{
+    position: relative;
+}
+
+.content
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;      
+    display: none;
+    top: 40%;
+    left: 0;
+    cursor: pointer ;
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+}
+
+.carte:hover .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+    color: #073335;
+    background-color: #EFEFC8;
+    height: 30%;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width:250px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card:hover 
+{
+    background-color: #EFEFC8;
+    
+
+}
+
+.infos .card p
+{
+    bottom: 40%;
+    text-align: center;  
+}
+
+.infos
+{
+    padding-top: 10vh;
+   
+}
+
+.card p
+{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.card img
+{
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    align-content: center;
+}
+
+.reviews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+    grid-auto-flow: column; 
+    margin-right: 4vw; 
+}
+
+/* ---------------------------CONTACT---------------------- */
+
+input
+{
+    margin-top: 11px;
+    width: 60%;
+    height: 7vh;
+    font-size: medium;
+}
+
+textarea
+{
+    margin-top: 10px;
+    width: 60%;     
+}
+
+
+.contact
+{
+     margin: 2%;
+     border: 1px solid black;     
+}
+
+
+.BUT
+{
+
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    margin-bottom: 3vh;
+    border-style: none;
+}
+
+
+
+.BUT:hover
+{
+    background-color: #0F7579;
+    color: white;
+}
+
+/* -----------------------FOOTER---------------------- */
+
+
+ footer{
+
+    justify-content: space-around;
+    margin-top: 6vh;
+    width: 100%;
+    background-color: rgba(239, 239, 200, 1);
+}
+
+#inso
+{
+
+}
+
+
+.sec-end{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#logo
+{
+     width: 20%;
+
+}
+
+#label
+{
+    color: rgba(15, 117, 121, 1);
+    font-size: small;
+}
+
+
+.social
+{
+
+    width: 8vh;
+    height: auto;
+
+}
+
+
+.social:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.numemail
+{
+     color: rgba(7, 51, 53, 1);
+     font-size: small;
+}
+
+/*-----------media-----------------*/
+
+@media only screen and (max-width: 400px)
+{
+
+ 
+body
+{ 
+    background-image: url(./imgs/desert.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;  
+}
+
+
+.sec1
+{   
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+header, a, .sec1
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+} 
+
+
+a
+{
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover
+{
+    background-color:  #0F7579;
+    opacity: 0.9;
+}
+
+header
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1
+{
+    font-weight: 400;
+}
+
+.slogan
+{
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+#first
+{
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.button
+{
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    border-color: #EFEFC8;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background-color: #EFEFC8;
+}
+
+.sec2
+{
+    position: relative;
+    background-color: white;
+    overflow: hidden;  
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 19%;
+    color: #073335;
+}
+
+.sec3
+{  
+    background-color: white; 
+    color: #073335;
+    margin-top: 8vh;
+    padding-bottom: 4vh;
+}
+
+.sec4
+{
+    background-color: white;
+}
+
+.sec4 h2
+{
+    color: #073335;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1vh;
+}
+
+#TESTIMONIALS
+{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#DESTINATIONS, p
+{
+    margin-left: 5%;
+}
+
+p
+{
+    padding-bottom: 5VH;
+}
+
+.container
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+    grid-auto-flow: column;    
+}
+
+.container img  
+{
+    width: 25vw;
+    height: auto;
+    padding-bottom: 1vw;
+}
+
+h5
+{
+    color: #0F7579;
+    font-size: x-small;
+}
+
+span
+{
+    font-size: 3vw;
+}
+ 
+.carte
+{
+    position: relative;
+}
+
+.content
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;      
+    display: none;
+    top: 40%;
+    left: 0;
+    cursor: pointer ;
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+    font-size: xx-small;
+}
+
+.carte:hover .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+    color: #073335;
+    background-color: #EFEFC8;
+    height: 50%;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 5vw;
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width:250px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card:hover 
+{
+    background-color: #EFEFC8;
+    
+
+}
+
+.infos .card p
+{
+    bottom: 40%;
+    text-align: center;  
+}
+
+.infos
+{
+    padding-top: 10vh;
+   
+}
+
+.card p
+{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.card img
+{
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    align-content: center;
+}
+
+.reviews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+    grid-auto-flow: column; 
+    margin-right: 4vw; 
+}
+
+
+
+input
+{
+    margin-top: 11px;
+    width: 60%;
+    height: 7vh;
+    font-size: medium;
+}
+
+textarea
+{
+    margin-top: 10px;
+    width: 60%;     
+}
+
+
+.contact
+{
+     margin: 2%;
+     border: 1px solid black;     
+}
+
+
+.BUT
+{
+
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    margin-bottom: 3vh;
+    border-style: none;
+}
+
+
+
+.BUT:hover
+{
+    background-color: #0F7579;
+    color: white;
+}
+
+
+
+
+ footer{
+
+    justify-content: space-around;
+    margin-top: 6vh;
+    width: 100%;
+    background-color: rgba(239, 239, 200, 1);
+}
+
+#inso
+{
+    display: none;
+}
+
+
+.sec-end{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#logo
+{
+     width: 40%;
+}
+
+#label
+{
+    color: rgba(15, 117, 121, 1);
+    font-size: small;
+}
+
+
+.social
+{
+
+    width: 8vh;
+    height: auto;
+
+}
+
+
+.social:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.numemail
+{
+     color: rgba(7, 51, 53, 1);
+     font-size: small;
+}
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
